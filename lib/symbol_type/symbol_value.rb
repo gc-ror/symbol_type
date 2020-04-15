@@ -1,3 +1,5 @@
+require 'active_model'
+
 module SymbolType
   #
   # ターゲット型: 設問やオプションがどちら向きか？(自己/他者/両方)を設定する

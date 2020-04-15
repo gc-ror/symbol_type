@@ -3,11 +3,9 @@
 require 'test_helper'
 
 class SymbolTypeTest < Minitest::Test
-  def test_that_it_has_a_version_number
-    refute_nil ::SymbolType::VERSION
+  def test1
   end
 
-  def test_it_does_something_useful
-    assert false
+  def test2
   end
 end
