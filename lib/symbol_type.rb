@@ -9,4 +9,8 @@ require 'symbol_type/symbol_value'
 #
 #
 module SymbolType
+  def register
+    ActiveModel::Type.register(:target, SymbolValue)
+    ActiveRecord::Type.register(:target, SymbolValue)
+  end
 end
